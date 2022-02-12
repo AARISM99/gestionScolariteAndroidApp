@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/etudiantBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rounded_edittext"
+            android:text="Gestion des Etudiants"
+            android:textSize="15dp">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/inscriptionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/rounded_edittext"
+            android:text="Gestion des Inscriptions"
+            android:textSize="15dp">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/niveauxBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="240dp"
+            android:text="Gestion des Niveaux"
+            android:background="@drawable/rounded_edittext"
+
+            android:textSize="15dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/filiereBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="310dp"
+            android:text="Gestion des Filieres"
+            android:background="@drawable/rounded_edittext"
+
+
+            android:textSize="15dp"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/moduleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="380dp"
+            android:text="Gestion des Modules"
+            android:background="@drawable/rounded_edittext"
+
+
+            android:textSize="15dp"></Button>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/evaluationBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/rounded_edittext"
+            android:text="Gestion des Evaluations"
+
+            android:textSize="15dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
