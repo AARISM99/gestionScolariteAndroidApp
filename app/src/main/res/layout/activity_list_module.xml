@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".InscriptionCRUD.ListInscription">
+    tools:context=".ModuleCRUD.ListModule">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +31,7 @@
                     android:layout_weight="5"
                     android:elevation="10dp"
                     android:gravity="center"
-                    android:text="Consultation des inscriptions"
+                    android:text="Consultation des modules"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textFontWeight="500"
@@ -51,7 +50,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/inscription_add_new_layout"
+                android:id="@+id/module_add_new_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -59,18 +58,18 @@
                 android:layout_marginRight="10dp">
 
                 <Button
-                    android:id="@+id/newInscriptionBtn"
+                    android:id="@+id/newModuleBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#20A16D"
-                    android:text="nouvelle inscription" />
+                    android:text="nouveau module" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/inscription_header_layout"
+                android:id="@+id/module_header_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/inscription_add_new_layout"
+                android:layout_below="@+id/module_add_new_layout"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp">
@@ -84,6 +83,26 @@
                     android:textColor="#FFFFFF"
                     android:textSize="17dp"
                     android:text="ID" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#20A16D"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp"
+                    android:text="Code" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="#20A16D"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp"
+                    android:text="Nom" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -105,39 +124,19 @@
                     android:textSize="17dp"
                     android:text="Filiere" />
 
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:background="#20A16D"
-                    android:gravity="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="17dp"
-                    android:text="Etudiant" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:background="#20A16D"
-                    android:gravity="center"
-                    android:textColor="#FFFFFF"
-                    android:textSize="17dp"
-                    android:text="Date" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/inscription_header_layout"
+                android:layout_below="@+id/module_header_layout"
                 android:layout_marginTop="0dp"
                 android:orientation="vertical"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp">
 
                 <ListView
-                    android:id="@+id/list_inscription"
+                    android:id="@+id/list_module"
                     android:layout_width="match_parent"
                     android:layout_height="350dp" />
 

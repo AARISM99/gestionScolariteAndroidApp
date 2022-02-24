@@ -1,54 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".EtudiantCRUD.AddEtudiant">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
+        android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/code_etudiant"
-            android:layout_width="363dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Code Etudiant" />
+            android:gravity="center"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/nom_etudiant"
-            android:layout_width="361dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Nom" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_corner"
+                android:padding="20dp">
 
-        <EditText
-            android:id="@+id/prenom_etudiant"
-            android:layout_width="366dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Prenom" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_weight="4"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    android:text="Ajouter un etudiant"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textFontWeight="500"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/date_naissace"
-            android:layout_width="371dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Date de naissance" />
+                <ImageView
+                    android:id="@+id/imageScolarite"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/scolarite" />
 
-        <Button
-            android:id="@+id/addEtudiantBtn"
-            android:layout_width="153dp"
-            android:layout_height="wrap_content"
-            android:text="Ajouter" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="0dp">
+
+                <EditText
+                    android:id="@+id/code_etudiant_input"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Code Etudiant"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/nom_etudiant_input"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nom"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/prenom_etudiant_input"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Prenom"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/date_naissace_input"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Date de naissance"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/addEtudiantBtn"
+                    android:layout_width="153dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#20A16D"
+                    android:text="Ajouter" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

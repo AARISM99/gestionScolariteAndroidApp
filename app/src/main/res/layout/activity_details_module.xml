@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:background="@drawable/bg"
-    android:gravity="center">
+    tools:context=".ModuleCRUD.DetailsModule">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -49,37 +50,51 @@
 
             </LinearLayout>
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/details_code_niveau_input"
+                    android:id="@+id/details_code_module_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:hint="Code"
+                    android:hint="Code Module"
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/details_titre_niveau_input"
+                    android:id="@+id/details_nom_module_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Nom" />
+                    android:hint="Intitulé"
+                    android:inputType="textPersonName" />
+
+                <Spinner
+                    android:id="@+id/details_niveau_module_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:dropDownWidth="match_parent" />
+
+                <Spinner
+                    android:id="@+id/details_filiere_module_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:dropDownWidth="match_parent" />
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#2196F3"
                     android:gravity="center">
 
                     <Button
                         android:id="@+id/supp"
-                        android:layout_width="222dp"
+                        android:layout_width="210dp"
                         android:layout_height="60dp"
                         android:backgroundTint="#DC2A2A"
                         android:text="supprimer" />
@@ -89,7 +104,8 @@
                         android:layout_width="210dp"
                         android:layout_height="60dp"
                         android:backgroundTint="#20A16D"
-                        android:text="AA7629" />
+                        android:text="modifier" />
+
                 </LinearLayout>
 
             </LinearLayout>

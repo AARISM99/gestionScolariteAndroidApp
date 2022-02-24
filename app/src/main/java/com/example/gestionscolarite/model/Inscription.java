@@ -11,19 +11,19 @@ public class Inscription {
     public Inscription() {
     }
 
-    public Inscription(int id, String date, Niveau niveau, Filiere filiere, Etudiant etudiant) {
+    public Inscription(int id, Niveau niveau, Filiere filiere, Etudiant etudiant, String date) {
         this.id = id;
-        this.date = date;
         this.niveau = niveau;
         this.filiere = filiere;
         this.etudiant = etudiant;
+        this.date = date;
     }
 
-    public Inscription(String date, Niveau niveau, Filiere filiere, Etudiant etudiant) {
-        this.date = date;
+    public Inscription(Niveau niveau, Filiere filiere, Etudiant etudiant,String date) {
         this.niveau = niveau;
         this.filiere = filiere;
         this.etudiant = etudiant;
+        this.date = date;
     }
 
     public int getId() {

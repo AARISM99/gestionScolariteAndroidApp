@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <TextView
+        android:id="@+id/id_inscription"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="ID" />
+
+    <TextView
+        android:id="@+id/niveau_inscription_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="Niveau" />
+
+    <TextView
+        android:id="@+id/filiere_inscription_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="Filiere" />
+
+    <TextView
+        android:id="@+id/etudiant_inscription_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="Etudiant" />
+
+    <TextView
+        android:id="@+id/date_inscription_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:text="Date" />
+
+</LinearLayout>

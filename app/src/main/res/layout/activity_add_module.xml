@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    android:gravity="center">
+    tools:context=".ModuleCRUD.AddModule">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,13 +13,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/rounded_corner"
                 android:padding="20dp">
@@ -31,7 +31,7 @@
                     android:layout_weight="4"
                     android:elevation="10dp"
                     android:gravity="center"
-                    android:text="Consulter une inscription"
+                    android:text="Ajouter un module"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textFontWeight="500"
@@ -51,49 +51,49 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
                 android:orientation="vertical"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="0dp">
 
                 <EditText
-                    android:id="@+id/details_code_niveau_input"
-                    android:layout_width="match_parent"
+                    android:id="@+id/code_module_input"
+                    android:layout_width="360dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Code"
+                    android:hint="Code Module"
                     android:inputType="textPersonName" />
 
                 <EditText
-                    android:id="@+id/details_titre_niveau_input"
-                    android:layout_width="match_parent"
+                    android:id="@+id/titre_module_input"
+                    android:layout_width="360dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Nom" />
+                    android:hint="Intitulé"
+                    android:inputType="textPersonName" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <Spinner
+                    android:id="@+id/niveau_module_select"
+                    android:layout_width="360dp"
+                    android:layout_height="39dp"
+                    android:dropDownWidth="match_parent" />
+
+                <Spinner
+                    android:id="@+id/filiere_module_select"
+                    android:layout_width="360dp"
+                    android:layout_height="39dp"
+                    android:dropDownWidth="match_parent" />
+
+                <Button
+                    android:id="@+id/addModuletBtn"
+                    android:layout_width="153dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center">
-
-                    <Button
-                        android:id="@+id/supp"
-                        android:layout_width="222dp"
-                        android:layout_height="60dp"
-                        android:backgroundTint="#DC2A2A"
-                        android:text="supprimer" />
-
-                    <Button
-                        android:id="@+id/modifier"
-                        android:layout_width="210dp"
-                        android:layout_height="60dp"
-                        android:backgroundTint="#20A16D"
-                        android:text="AA7629" />
-                </LinearLayout>
-
+                    android:backgroundTint="#20A16D"
+                    android:text="Ajouter" />
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,8 @@ package com.example.gestionscolarite;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,25 +17,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+//        setContentView(R.layout.activity_main);
+        startActivity(new Intent(getApplicationContext(),Menu.class));
 
-        usernameText = (EditText) findViewById(R.id.username);
-        passwordText = (EditText) findViewById(R.id.password);
-        loginBtn = (Button) findViewById(R.id.loginBtn);
 
-        loginBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (login(usernameText.getText().toString(),passwordText.getText().toString())){
-                    Toast.makeText(getApplicationContext(),"Welcome back Admin",Toast.LENGTH_LONG).show();
-
-                    //open Menu activity
-                    startActivity(new Intent(getApplicationContext(),Menu.class));
-                }else
-                    Toast.makeText(getApplicationContext(),"Please enter correct Info!",Toast.LENGTH_LONG).show();
-
-            }
-        });
+//        usernameText = (EditText) findViewById(R.id.username);
+//        passwordText = (EditText) findViewById(R.id.password);
+//        loginBtn = (Button) findViewById(R.id.loginBtn);
+//
+//        loginBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if (login(usernameText.getText().toString(),passwordText.getText().toString())){
+//                    Toast.makeText(getApplicationContext(),"Welcome back Admin",Toast.LENGTH_LONG).show();
+//
+//                    //open Menu activity
+//                    startActivity(new Intent(getApplicationContext(),Menu.class));
+//                }else
+//                    Toast.makeText(getApplicationContext(),"Please enter correct Info!",Toast.LENGTH_LONG).show();
+//
+//            }
+//        });
     }
 
     //login

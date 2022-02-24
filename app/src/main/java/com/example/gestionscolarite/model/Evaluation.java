@@ -5,65 +5,66 @@ public class Evaluation {
     private int id;
     private Etudiant etudiant;
     private Module module;
-    private Filiere filiere;
     private float note;
+    private String date_evaluation;
 
     public Evaluation() {
+
     }
 
-    public Evaluation(int id, Etudiant etudiant, Module module, Filiere filiere, float note) {
+    public Evaluation(int id, Etudiant etudiant, Module module, float note, String date_evaluation) {
         this.id = id;
         this.etudiant = etudiant;
         this.module = module;
-        this.filiere = filiere;
         this.note = note;
+        this.date_evaluation = date_evaluation;
     }
 
-    public Evaluation(Etudiant etudiant, Module module, Filiere filiere, float note) {
+    public Evaluation(Etudiant etudiant, Module module, float note, String date_evaluation) {
         this.etudiant = etudiant;
         this.module = module;
-        this.filiere = filiere;
         this.note = note;
-    }
-
-    public Etudiant getEtudiant() {
-        return etudiant;
-    }
-
-    public void setEtudiant(Etudiant etudiant) {
-        this.etudiant = etudiant;
-    }
-
-    public Module getModule() {
-        return module;
-    }
-
-    public void setModule(Module module) {
-        this.module = module;
-    }
-
-    public Filiere getFiliere() {
-        return filiere;
-    }
-
-    public void setFiliere(Filiere filiere) {
-        this.filiere = filiere;
+        this.date_evaluation = date_evaluation;
     }
 
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public Etudiant getEtudiant() {
+        return etudiant;
+    }
+
+    public Module getModule() {
+        return module;
     }
 
     public float getNote() {
         return note;
     }
 
+    public String getDate_evaluation() {
+        return date_evaluation;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setEtudiant(Etudiant etudiant) {
+        this.etudiant = etudiant;
+    }
+
+    public void setModule(Module module) {
+        this.module = module;
+    }
+
     public void setNote(float note) {
         this.note = note;
+    }
+
+    public void setDate_evaluation(String date_evaluation) {
+        this.date_evaluation = date_evaluation;
     }
 
     @Override
@@ -72,8 +73,8 @@ public class Evaluation {
                 "id=" + id +
                 ", etudiant=" + etudiant +
                 ", module=" + module +
-                ", filiere=" + filiere +
                 ", note=" + note +
+                ", date_evaluation='" + date_evaluation + '\'' +
                 '}';
     }
 }

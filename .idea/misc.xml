@@ -7,18 +7,64 @@
         <entry key="..\:/AndroidStudio/examples/GestionScolarite/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/AndroidStudio/examples/GestionScolarite/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/GestionScolarite/app/src/main/res/layout/activity_add_etudiant.xml" value="0.24547101449275363" />
+        <entry key="..\:/GestionScolarite/app/src/main/res/layout/activity_detaits_etudiant.xml" value="0.16799999999999998" />
         <entry key="..\:/GestionScolarite/app/src/main/res/layout/activity_list_etudiant.xml" value="0.25416666666666665" />
         <entry key="..\:/GestionScolarite/app/src/main/res/layout/activity_list_etudiants.xml" value="0.13020833333333334" />
         <entry key="..\:/GestionScolarite/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
         <entry key="..\:/GestionScolarite/app/src/main/res/layout/activity_menu.xml" value="0.264" />
         <entry key="..\:/GestionScolarite/app/src/main/res/layout/etudiant.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/drawable/rounded_corner.xml" value="0.146875" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/drawable/rounded_edittext.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/drawable/text_view_border.xml" value="0.134375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_add_etudiant.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_add_evaluation.xml" value="0.14" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_add_filiere.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_add_inscription.xml" value="0.128125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_add_module.xml" value="0.14" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_add_niveau.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_bultin.xml" value="0.18" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_details_etudiant.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_details_evaluation.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_details_filiere.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_details_inscription.xml" value="0.14" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_details_module.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_details_niveau.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_detaits_etudiant.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_list_etudiant.xml" value="0.14" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_list_evaluation.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_list_filiere.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_list_inscription.xml" value="0.128125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_list_module.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_list_niveau.xml" value="0.14454482279360667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/activity_menu.xml" value="0.14" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/etudiant.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/evaluation.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/filiere.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/inscription.xml" value="0.1453125" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/module.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/module_note.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/mytitle.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/layout/niveau.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GestionScolarite/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/DELL/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.10833333333333334" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>

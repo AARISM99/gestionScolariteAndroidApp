@@ -8,89 +8,75 @@
     android:background="@drawable/bg"
     tools:context=".MainActivity">
 
-    <!-- Debut du Layout -->
 
-    <!-- Pour le username -->
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center|center_horizontal"-->
+<!--        android:orientation="horizontal">-->
 
 
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="291dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:hint="username"
-            android:padding="10dip"
-            android:background="@drawable/rounded_edittext"
-            android:textColorHint="@color/grey"
-            android:textColor="@color/white"
+<!--        <EditText-->
+<!--            android:id="@+id/username"-->
+<!--            android:layout_width="291dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/rounded_edittext"-->
+<!--            android:hint="username"-->
+<!--            android:padding="10dip"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/grey"-->
 
 
+<!--            tools:ignore="TouchTargetSizeCheck">-->
 
-            >
-
-        </EditText>
-    </LinearLayout>
-
-
-    <!-- pour le pu-->
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="60dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="291dp"
-            android:hint="password"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:password="true"
-            android:padding="10dip"
-            android:background="@drawable/rounded_edittext"
-            android:textColorHint="@color/grey"
-            android:textColor="@color/white"
-
-            >
-
-        </EditText>
-    </LinearLayout>
+<!--        </EditText>-->
+<!--    </LinearLayout>-->
 
 
-    <!-- pour le button-->
+<!--    &lt;!&ndash; pour le pu&ndash;&gt;-->
 
-    <!-- pour le tableau-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:gravity="center|center_horizontal"-->
+<!--        android:orientation="horizontal">-->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+<!--        <EditText-->
+<!--            android:id="@+id/password"-->
+<!--            android:layout_width="291dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/rounded_edittext"-->
+<!--            android:hint="password"-->
+<!--            android:padding="10dip"-->
+<!--            android:password="true"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/grey"-->
+<!--            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"></EditText>-->
 
-        <Button
-            android:id="@+id/loginBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="150dp"
-            android:gravity="center|center_vertical"
-            android:onClick="ajouter"
-            android:orientation="horizontal"
-            android:text="se conecter"
-            android:background="@drawable/rounded_edittext"
+<!--    </LinearLayout>-->
 
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="120dp"-->
+<!--        android:gravity="center|center_horizontal"-->
+<!--        android:orientation="horizontal">-->
 
-            android:textSize="15dp"></Button>
-    </LinearLayout>
+<!--        <Button-->
+<!--            android:id="@+id/loginBtn"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/rounded_edittext"-->
+<!--            android:hint="login"-->
+<!--            android:padding="10dip"-->
+<!--            android:password="true"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textColorHint="@color/grey"></Button>-->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+<!--    </LinearLayout>-->
+
 
 </RelativeLayout>
+
+
