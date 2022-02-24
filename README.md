@@ -1,5 +1,7 @@
 # GestionScolariteAndroidApp
 
+<img src="https://github.com/AARISM99/gestionScolariteAndroidApp/blob/main/app/src/main/res/screenshots/Screenshot_2022-02-24-21-42-44-050_com.example.gestionscolarite.jpg" width="100" height="100">
+
 ## L'interface principale
 ![interface principale](https://github.com/AARISM99/gestionScolariteAndroidApp/blob/main/app/src/main/res/screenshots/Screenshot_2022-02-24-21-42-44-050_com.example.gestionscolarite.jpg)
 ## Ajouter un etudiant
